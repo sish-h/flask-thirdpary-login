@@ -29,7 +29,7 @@ def googleDirect():
 	return render_template('google.html')
 
 @app.route('/facebook-redirect')
-def googleDirect():
+def facebookDirect():
 	return render_template('facebook.html')
 
 @app.route('/google/')
